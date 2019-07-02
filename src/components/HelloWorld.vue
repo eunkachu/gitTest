@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'ㄹㅗ떼월드'
+      msg: '모험과 신비의 나라 롯데월드'
     }
   }
 }
