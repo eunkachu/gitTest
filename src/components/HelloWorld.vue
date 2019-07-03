@@ -8,7 +8,7 @@
           href="https://vuejs.org"
           target="_blank"
         >
-          Core Docsddddd
+          Core Docs
         </a>
       </li>
       <li>
@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '모험과 신비의 나라 롯데월드'
+      msg: '모험과 신비의 나라 도쿄 디즈니랜드? 홍콩 / 도쿄 / 파리 / 플로리다에 있습니다. 자세한 사항은 www.desneyland.com 으로 문의 주세요'
     }
   }
 }
