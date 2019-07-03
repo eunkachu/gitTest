@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '모험과 신비의 나라 롯데월드'
+      msg: '모험과 신비의 나라 도쿄 디즈니랜드?'
     }
   }
 }
