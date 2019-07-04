@@ -45,7 +45,46 @@
         </a>
       </li>
     </ul>
-    <h2>Ecosystem</h2>
+    <h2>공통</h2>
+    <table class="tbl-common">
+      <colgroup>
+        <col style="width:30%">
+      </colgroup>
+      <thead>
+        <td>서비스 영역</td>
+        <td>Depth 1</td>
+        <td>Depth 2</td>
+        <td>Depth 3</td>
+        <td>Depth 4</td>
+        <td>Depth 5</td>
+        <td>Depth 6</td>
+        <td>화면 명</td>
+        <td>화면 구분</td>
+        <td>회원정보 노출</td>
+        <td>네이티브</td>
+        <td>담당자</td>
+      </thead>
+      <tbody>
+        <tr>
+          <th>공통</th>
+        </tr>
+        <tr>
+          <th>메인(롯데ON)</th>
+        </tr>
+        <tr>
+          <th>헤더</th>
+        </tr>
+        <tr>
+          <th>액션바</th>
+        </tr>
+        <tr>
+          <th>푸터</th>
+        </tr>
+        <tr>
+          <th>상품상세</th>
+        </tr>
+      </tbody>
+    </table>
     <ul>
       <li>
         <a
@@ -96,6 +135,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+.bi{
+  display: none;
+}
 h1, h2 {
   font-weight: normal;
 }
@@ -109,6 +151,10 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.tbl-common{
+  text-align: left;
 }
 ul{
   li{border:1px solid red;}
