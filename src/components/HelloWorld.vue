@@ -47,6 +47,9 @@
     </ul> -->
     <h2>공통</h2>
     <table class="tbl-common">
+      <colgroup>
+        <col style="width:30%">
+      </colgroup>
       <thead>
         <td>서비스 영역</td>
         <td>Depth 1</td>
@@ -63,22 +66,22 @@
       </thead>
       <tbody>
         <tr>
-          <td>공통</td>
+          <th>공통</th>
         </tr>
         <tr>
-          메인(롯데ON)
+          <th>메인(롯데ON)</th>
         </tr>
         <tr>
-          헤더
+          <th>헤더</th>
         </tr>
         <tr>
-          액션바
+          <th>액션바</th>
         </tr>
         <tr>
-          푸터
+          <th>푸터</th>
         </tr>
         <tr>
-          상품상세
+          <th>상품상세</th>
         </tr>
       </tbody>
     </table>
@@ -132,6 +135,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+.bi{
+  display: none;
+}
 h1, h2 {
   font-weight: normal;
 }
@@ -148,7 +154,7 @@ a {
 }
 
 .tbl-common{
-  text-align-last: left;
+  text-align: left;
 }
 ul{
   li{border:1px solid red;
