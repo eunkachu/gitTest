@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <!-- <h2>Essential Links</h2>
     <ul>
       <li>
         <a
@@ -44,8 +44,44 @@
           Docs for This Template
         </a>
       </li>
-    </ul>
-    <h2>Ecosystem</h2>
+    </ul> -->
+    <h2>공통</h2>
+    <table class="tbl-common">
+      <thead>
+        <td>서비스 영역</td>
+        <td>Depth 1</td>
+        <td>Depth 2</td>
+        <td>Depth 3</td>
+        <td>Depth 4</td>
+        <td>Depth 5</td>
+        <td>Depth 6</td>
+        <td>화면 명</td>
+        <td>화면 구분</td>
+        <td>회원정보 노출</td>
+        <td>네이티브</td>
+        <td>담당자</td>
+      </thead>
+      <tbody>
+        <tr>
+          <td>공통</td>
+        </tr>
+        <tr>
+          메인(롯데ON)
+        </tr>
+        <tr>
+          헤더
+        </tr>
+        <tr>
+          액션바
+        </tr>
+        <tr>
+          푸터
+        </tr>
+        <tr>
+          상품상세
+        </tr>
+      </tbody>
+    </table>
     <ul>
       <li>
         <a
@@ -88,7 +124,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '모험과 신비의 나라 도쿄 디즈니랜드?'
+      msg: 'LOTTE E-COMMERCE WORKSHEET'
     }
   }
 }
@@ -109,5 +145,13 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.tbl-common{
+  text-align-last: left;
+}
+.tbl-common td{
+  padding: 5px 20px;
+  /* border: 1px solid #333; */
 }
 </style>
