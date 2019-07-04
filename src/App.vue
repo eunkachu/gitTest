@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img class="bi" src="./assets/logo1.png">
+    <div class="logo-wrap">
+      <img class="bi" src="./assets/logo1.png" style="width:320px; padding:30px 0">
+    </div>
     <router-view/>
   </div>
 </template>
@@ -11,7 +13,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,8 +21,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-.bi{
-  display: none;
 }
 </style>
