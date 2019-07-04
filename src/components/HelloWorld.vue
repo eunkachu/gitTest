@@ -131,7 +131,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 h1, h2 {
   font-weight: normal;
 }
@@ -150,8 +150,8 @@ a {
 .tbl-common{
   text-align-last: left;
 }
-.tbl-common td{
-  padding: 5px 20px;
-  /* border: 1px solid #333; */
+ul{
+  li{border:1px solid red;
+  }
 }
 </style>
